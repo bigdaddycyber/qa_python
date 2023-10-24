@@ -13,6 +13,3 @@ def collector():
     collector.set_book_genre('Крошка - коврошка', 'Мультфильмы')
     return collector 
     
-    
-    
-    

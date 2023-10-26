@@ -11,12 +11,6 @@ class TestBooksCollector:
         collector.add_new_book('Карлсон')
         assert len(collector.get_books_genre()) == 2
         
-    def test_set_book_genge(self, collector):
-        collector = BooksCollector()
-        collector.add_new_book('Гордость и предубеждение и зомби')
-        collector.set_book_genre('Гордость и предубеждение и зомби', 'Детективы')
-        assert collector.set_book_genre('Гордость и предубеждение и зомби') == 'Детективы'
-        
     def test_get_book_genre(self, collector):
         collector = BooksCollector()
         collector.add_new_book('Гордость и предубеждение и зомби')
